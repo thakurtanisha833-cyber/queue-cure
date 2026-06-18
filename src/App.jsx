@@ -3,7 +3,7 @@ import { io } from "socket.io-client";
 import { BarChart, Bar, XAxis, YAxis, Tooltip, CartesianGrid } from "recharts";
 import "./App.css";
 
-const socket = io("http://localhost:5000");
+const socket = io("https://queue-cure-production-b559.up.railway.app");
 
 function App() {
 
